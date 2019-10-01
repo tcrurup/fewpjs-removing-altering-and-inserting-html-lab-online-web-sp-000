@@ -1,5 +1,7 @@
 // Write your code here!
 
-document.getElementById('main').remove()
+document.getElementById('main').remove();
 
-let newHeader = document.body.appendChild(document.createElement('h1'))
+
+let newHeader = document.createElement('h1')
+document.body.appendChild(newHeader);
